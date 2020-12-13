@@ -57,7 +57,9 @@ IDE (eclipse)
 As the project runs, the console will show Logs for the beginning and end of the sets, and for each of the test methods that are running.
 You can also find Logs for this projects in the Log folder at the root level.
 
-Note: The last test: inputInvalidCountValue is failing because there is a 500 status code thrown by the server. I am expecting a 200.
+**Note on failed test:**
+ 
+The last test: inputInvalidCountValue is failing because there is a 500 status code thrown by the server. I am expecting a 200.
 There is not enough info at this time to find out why the code is not able to handle the invalid input. The expected result on the test is that once a deck is created, 52 cards will exist, and because the Draw method should fail due to an invalid entry, the number of cards should remain at 52, and the Assert method should pass because of that. 
 I will leave the failure to be recorded, and more research needs to be done when time permits.
 
