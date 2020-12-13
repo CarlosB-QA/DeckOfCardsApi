@@ -14,40 +14,18 @@ public class DeckOfCardsApiSupportMethods {
 		this.baseUri= baseUri;
 	}
 	public String createNewDeck() {
-		try {
-			String response = given().baseUri(baseUri)
-					.get("/new/").then().statusCode(200)
-					.extract().response().asString();
-			return response;
-		} catch (Exception e) {
-			log.createLog("error", "Could not create a new deck of cards. Verify API Request, and stack trace.");
-			e.printStackTrace();
-			return "";
-		}
+		return given().baseUri(baseUri)
+				.get("/new/").then().statusCode(200)
+				.extract().response().asString();
 	}
 	public String createNewDeck(Map<String, String> params) {
-		try {
-			String response = given().baseUri(baseUri).params(params)
-					.get("/new/").then().statusCode(200)
-					.extract().response().asString();
-			return response;
-		} catch (Exception e) {
-			log.createLog("error", "Could not create a new deck of cards with params. Verify API Request, and stack trace.");
-			e.printStackTrace();
-			return "";
-		}
+		return given().baseUri(baseUri).params(params)
+				.get("/new/").then().statusCode(200)
+				.extract().response().asString();
 	}
 	public String drawCardsFromDeck(String deckId,HashMap<String,String>params) {
-
-		try {
-			String response = given().baseUri(baseUri).params(params)
-					.get(deckId+"/draw/").then().statusCode(200)
-					.extract().response().asString();
-			return response;
-		} catch (Exception e) {
-			log.createLog("error", "Could not draw cards from the deck. Verify API Request, and stack trace.");
-			e.printStackTrace();
-			return "";
-		}
+		return given().baseUri(baseUri).params(params)
+				.get(deckId+"/draw/").then().statusCode(200)
+				.extract().response().asString();
 	}
 }

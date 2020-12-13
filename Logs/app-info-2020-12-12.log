@@ -1,0 +1,51 @@
+[INFO ] 2020-12-12 20:47:20.648 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Start #####
+[INFO ] 2020-12-12 20:47:20.699 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawZero test method running
+[INFO ] 2020-12-12 20:47:26.975 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawAll test method running
+[INFO ] 2020-12-12 20:47:27.857 [main] DeckOfCardsApiNegativeTests : --> createDeckOverDraw test method running
+[INFO ] 2020-12-12 20:47:28.572 [main] DeckOfCardsApiNegativeTests : --> drawCardsOnEmptyDeck test method running
+[INFO ] 2020-12-12 20:47:29.563 [main] DeckOfCardsApiNegativeTests : --> verifyInvalidCountValue test method running
+[INFO ] 2020-12-12 20:47:30.115 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Ends #####
+[INFO ] 2020-12-12 20:47:30.118 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests Start #####
+[INFO ] 2020-12-12 20:47:30.121 [main] DeckOfCardsApiPositiveTests : --> createNewDeck test method running
+[INFO ] 2020-12-12 20:47:30.373 [main] DeckOfCardsApiPositiveTests : --> createNewDeckWithJoker test method running
+[INFO ] 2020-12-12 20:47:30.726 [main] DeckOfCardsApiPositiveTests : --> drawCardsFromDeck test method running
+[INFO ] 2020-12-12 20:47:31.337 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests End #####
+[INFO ] 2020-12-12 20:53:02.273 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests Start #####
+[INFO ] 2020-12-12 20:53:02.300 [main] DeckOfCardsApiPositiveTests : --> createNewDeck test method running
+[INFO ] 2020-12-12 20:53:08.408 [main] DeckOfCardsApiPositiveTests : --> createNewDeckWithJoker test method running
+[INFO ] 2020-12-12 20:53:09.015 [main] DeckOfCardsApiPositiveTests : --> drawCardsFromDeck test method running
+[INFO ] 2020-12-12 20:53:09.747 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests End #####
+[INFO ] 2020-12-12 20:53:09.752 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Start #####
+[INFO ] 2020-12-12 20:53:09.761 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawZero test method running
+[INFO ] 2020-12-12 20:53:10.446 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawAll test method running
+[INFO ] 2020-12-12 20:53:11.389 [main] DeckOfCardsApiNegativeTests : --> createDeckOverDraw test method running
+[INFO ] 2020-12-12 20:53:11.999 [main] DeckOfCardsApiNegativeTests : --> drawCardsOnEmptyDeck test method running
+[INFO ] 2020-12-12 20:53:13.085 [main] DeckOfCardsApiNegativeTests : --> verifyInvalidCountValue test method running
+[INFO ] 2020-12-12 20:53:13.833 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Ends #####
+[INFO ] 2020-12-12 21:10:31.173 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Start #####
+[INFO ] 2020-12-12 21:10:31.206 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawZero test method running
+[INFO ] 2020-12-12 21:10:37.292 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawAll test method running
+[INFO ] 2020-12-12 21:10:38.177 [main] DeckOfCardsApiNegativeTests : --> createDeckOverDraw test method running
+[INFO ] 2020-12-12 21:10:38.982 [main] DeckOfCardsApiNegativeTests : --> drawCardsOnEmptyDeck test method running
+[INFO ] 2020-12-12 21:10:40.133 [main] DeckOfCardsApiNegativeTests : --> verifyInvalidCountValue test method running
+[INFO ] 2020-12-12 21:10:40.982 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Ends #####
+[INFO ] 2020-12-12 21:10:40.985 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests Start #####
+[INFO ] 2020-12-12 21:10:40.988 [main] DeckOfCardsApiPositiveTests : --> createNewDeck test method running
+[INFO ] 2020-12-12 21:10:41.312 [main] DeckOfCardsApiPositiveTests : --> createNewDeckWithJoker test method running
+[INFO ] 2020-12-12 21:10:41.659 [main] DeckOfCardsApiPositiveTests : --> drawCardsFromDeck test method running
+[INFO ] 2020-12-12 21:10:42.271 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests End #####
+[INFO ] 2020-12-12 21:20:13.766 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Start #####
+[INFO ] 2020-12-12 21:20:13.805 [main] DeckOfCardsApiNegativeTests : --> verifyInvalidCountValue test method running
+[INFO ] 2020-12-12 21:20:21.402 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Ends #####
+[INFO ] 2020-12-12 21:30:51.424 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Start #####
+[INFO ] 2020-12-12 21:30:51.461 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawZero test method running
+[INFO ] 2020-12-12 21:30:57.379 [main] DeckOfCardsApiNegativeTests : --> createDeckDrawAll test method running
+[INFO ] 2020-12-12 21:30:58.252 [main] DeckOfCardsApiNegativeTests : --> createDeckOverDraw test method running
+[INFO ] 2020-12-12 21:30:59.054 [main] DeckOfCardsApiNegativeTests : --> drawCardsOnEmptyDeck test method running
+[INFO ] 2020-12-12 21:31:00.071 [main] DeckOfCardsApiNegativeTests : --> verifyInvalidCountValue test method running
+[INFO ] 2020-12-12 21:31:00.695 [main] DeckOfCardsApiNegativeTests : ##### Deck of Cards Negative Tests Ends #####
+[INFO ] 2020-12-12 21:31:00.698 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests Start #####
+[INFO ] 2020-12-12 21:31:00.702 [main] DeckOfCardsApiPositiveTests : --> createNewDeck test method running
+[INFO ] 2020-12-12 21:31:01.059 [main] DeckOfCardsApiPositiveTests : --> createNewDeckWithJoker test method running
+[INFO ] 2020-12-12 21:31:01.464 [main] DeckOfCardsApiPositiveTests : --> drawCardsFromDeck test method running
+[INFO ] 2020-12-12 21:31:02.166 [main] DeckOfCardsApiPositiveTests : ##### Deck of Cards Positive Tests End #####

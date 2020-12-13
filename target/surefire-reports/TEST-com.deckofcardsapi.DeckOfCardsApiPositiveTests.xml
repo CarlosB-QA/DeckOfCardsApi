@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.865" tests="8" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="8.693" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,8 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-14.0.2/lib"/>
-    <property name="sun.java.command" value="/home/cboca/eclipse-workspace/DeckOfCardsApi/target/surefire/surefirebooter491294549629973885.jar /home/cboca/eclipse-workspace/DeckOfCardsApi/target/surefire 2020-12-13T10-37-29_575-jvmRun1 surefire1957133449956894960tmp surefire_03258891962416263088tmp"/>
+    <property name="sun.java.command" value="/home/cboca/eclipse-workspace/DeckOfCardsApi/target/surefire/surefirebooter13403600768422796680.jar /home/cboca/eclipse-workspace/DeckOfCardsApi/target/surefire 2020-12-13T10-38-28_879-jvmRun1 surefire17484323343670842053tmp surefire_012126764146919212788tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="DeckOfCardsApiPositiveTests"/>
     <property name="surefire.test.class.path" value="/home/cboca/eclipse-workspace/DeckOfCardsApi/target/test-classes:/home/cboca/eclipse-workspace/DeckOfCardsApi/target/classes:/home/cboca/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/home/cboca/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/home/cboca/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/home/cboca/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/cboca/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/cboca/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/cboca/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/cboca/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/cboca/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/cboca/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/cboca/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/home/cboca/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/cboca/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/home/cboca/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/home/cboca/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/cboca/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/cboca/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/home/cboca/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/cboca/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/cboca/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/home/cboca/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/cboca/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/cboca/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/cboca/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/cboca/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/cboca/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/cboca/.m2/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/home/cboca/.m2/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/home/cboca/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/cboca/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/home/cboca/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/home/cboca/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/home/cboca/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/home/cboca/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/home/cboca/.m2/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/home/cboca/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/home/cboca/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/home/cboca/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/cboca/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/cboca"/>
@@ -27,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/cboca/eclipse-workspace/DeckOfCardsApi/target/surefire/surefirebooter491294549629973885.jar"/>
+    <property name="surefire.real.class.path" value="/home/cboca/eclipse-workspace/DeckOfCardsApi/target/surefire/surefirebooter13403600768422796680.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
     <property name="user.name" value="cboca"/>
@@ -50,21 +51,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="createDeckAndDrawZeroCards" classname="com.deckofcardsapi.DeckOfCardsApiNegativeTests" time="5.778"/>
-  <testcase name="createDeckAndDrawAllCards" classname="com.deckofcardsapi.DeckOfCardsApiNegativeTests" time="1.042"/>
-  <testcase name="createDeckAndOverDraw" classname="com.deckofcardsapi.DeckOfCardsApiNegativeTests" time="0.831"/>
-  <testcase name="drawCardsOnEmptyDeck" classname="com.deckofcardsapi.DeckOfCardsApiNegativeTests" time="1.152"/>
-  <testcase name="inputInvalidCountValue" classname="com.deckofcardsapi.DeckOfCardsApiNegativeTests" time="0.754">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <500>.
-
-	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:80)
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2020-12-13 10:37:41.502 [main] DeckOfCardsApiNegativeTests : --> verifyInvalidCountValue test method running
-]]></system-out>
-  </testcase>
-  <testcase name="createNewDeck" classname="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="0.365"/>
-  <testcase name="createNewDeckWithJoker" classname="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="0.284"/>
-  <testcase name="drawCardsFromDeck" classname="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="0.762"/>
+  <testcase name="createNewDeck" classname="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="5.359"/>
+  <testcase name="createNewDeckWithJoker" classname="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="0.557"/>
+  <testcase name="drawCardsFromDeck" classname="com.deckofcardsapi.DeckOfCardsApiPositiveTests" time="0.934"/>
 </testsuite>

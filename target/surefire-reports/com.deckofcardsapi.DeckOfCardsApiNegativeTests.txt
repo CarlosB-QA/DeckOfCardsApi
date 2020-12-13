@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: com.deckofcardsapi.DeckOfCardsApiNegativeTests
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.865 s <<< FAILURE! - in TestSuite
-inputInvalidCountValue(com.deckofcardsapi.DeckOfCardsApiNegativeTests)  Time elapsed: 0.754 s  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.011 s <<< FAILURE! - in com.deckofcardsapi.DeckOfCardsApiNegativeTests
+inputInvalidCountValue(com.deckofcardsapi.DeckOfCardsApiNegativeTests)  Time elapsed: 0.753 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <500>.

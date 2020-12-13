@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 12 21:20:11 PST 2020</td>
+<td>Started on:</td><td>Sun Dec 13 10:36:07 PST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9582 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11988 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -116,7 +116,7 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:44)
+	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:29)
 	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -146,8 +146,8 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace430845669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace430845669'><pre>java.lang.AssertionError: 1 expectation failed.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1638429542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1638429542'><pre>java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;500&gt;.
 
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -187,7 +187,7 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:44)
+	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:29)
 	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -218,8 +218,51 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>7</td>
-<td>com.deckofcardsapi.DeckOfCardsApiNegativeTests@5e4c8041</td></tr>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiNegativeTests.createDeckAndDrawAllCards()'><b>createDeckAndDrawAllCards</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiNegativeTests</td>
+<td></td>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f</td></tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiNegativeTests.createDeckAndDrawZeroCards()'><b>createDeckAndDrawZeroCards</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiNegativeTests</td>
+<td></td>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f</td></tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiNegativeTests.createDeckAndOverDraw()'><b>createDeckAndOverDraw</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiNegativeTests</td>
+<td></td>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f</td></tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiPositiveTests.createNewDeck()'><b>createNewDeck</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiPositiveTests</td>
+<td></td>
+<td>5</td>
+<td>com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57</td></tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiPositiveTests.createNewDeckWithJoker()'><b>createNewDeckWithJoker</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiPositiveTests</td>
+<td></td>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57</td></tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiPositiveTests.drawCardsFromDeck()'><b>drawCardsFromDeck</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiPositiveTests</td>
+<td></td>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57</td></tr>
+<tr>
+<td title='com.deckofcardsapi.DeckOfCardsApiNegativeTests.drawCardsOnEmptyDeck()'><b>drawCardsOnEmptyDeck</b><br>Test class: com.deckofcardsapi.DeckOfCardsApiNegativeTests</td>
+<td></td>
+<td>0</td>
+<td>com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f</td></tr>
 </table><p>
 </body>
 </html>
