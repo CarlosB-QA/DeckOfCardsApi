@@ -1,4 +1,4 @@
-##Deck of Cards API Test##
+# Deck of Cards API Test
 
 The purpose for this project is to demonstrate API test automation on the Deck of Cards API. You can find the API instructions on Deck of Cards here:
 `http://deckofcardsapi.com`
@@ -36,14 +36,14 @@ The negative test contains scenarios that are intended to make the application f
 
 **Test Executions Instructions**
 
-The tests on this project can be executed locally using command line instructions on a terminal. If you prefer, you can use an IDE like  elipse or Intellij, however running the project on an IDE is optional. The project is ready to be placed on an environmet, or computer, and once the dependencies have been installed, the test can run with the instructions below.
+The tests on this project can be executed locally using command line instructions on a terminal. If you prefer, you can use an IDE like  elipse or Intellij, however running the project on an IDE is optional. The project is ready to be placed on an environment, or computer, and once the dependencies have been installed, the test can run with the instructions below.
 
 Command Line
 1. Clone the project to a local directory in your computer
 2. Launch command line terminal
 3. Enter these instructions: mvn clean test
 
-Because this is a Maven Java project, the first time you run the commands to test, Maven will download and install all the depencies necessary to run the project.
+Because this is a Maven Java project, the first time you run the commands to test, Maven will download and install all the dependencies necessary to run the project.
 
 IDE (eclipse)
 1. Clone the project to a local directory in the computer that will run this test.
