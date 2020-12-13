@@ -1,4 +1,4 @@
-##Deck of Cards API Test##
+# Deck of Cards API Test
 
 The purpose for this project is to demonstrate API test automation on the Deck of Cards API. You can find the API instructions on Deck of Cards here:
 `http://deckofcardsapi.com`
