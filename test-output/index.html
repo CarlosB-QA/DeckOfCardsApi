@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -129,21 +129,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.deckofcardsapi.DeckOfCardsApiNegativeTests" class="method navigator-link" hash-for-method="createDeckAndOverDraw">createDeckAndOverDraw</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.deckofcardsapi.DeckOfCardsApiPositiveTests" class="method navigator-link" hash-for-method="createNewDeck">createNewDeck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.deckofcardsapi.DeckOfCardsApiPositiveTests" class="method navigator-link" hash-for-method="createNewDeckWithJoker">createNewDeckWithJoker</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.deckofcardsapi.DeckOfCardsApiPositiveTests" class="method navigator-link" hash-for-method="drawCardsFromDeck">drawCardsFromDeck</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -214,8 +199,8 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:29)
-	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:80)
+	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:27)
+	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -250,35 +235,6 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.deckofcardsapi.DeckOfCardsApiPositiveTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createNewDeck">
-                  </a> <!-- createNewDeck -->
-                  <span class="method-name">createNewDeck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createNewDeckWithJoker">
-                  </a> <!-- createNewDeckWithJoker -->
-                  <span class="method-name">createNewDeckWithJoker</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="drawCardsFromDeck">
-                  </a> <!-- drawCardsFromDeck -->
-                  <span class="method-name">drawCardsFromDeck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -318,7 +274,7 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--469954602/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse--780472523/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -327,7 +283,6 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.deckofcardsapi.DeckOfCardsApiPositiveTests&quot;/&gt;
       &lt;class name=&quot;com.deckofcardsapi.DeckOfCardsApiNegativeTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
@@ -342,7 +297,7 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -368,39 +323,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createNewDeck')
-data.setCell(0, 2, 'com.deckofcardsapi.DeckOfCardsApiPositiveTests')
-data.setCell(0, 3, 5561);
+data.setCell(0, 1, 'createDeckAndDrawZeroCards')
+data.setCell(0, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
+data.setCell(0, 3, 5646);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'drawCardsOnEmptyDeck')
+data.setCell(1, 1, 'inputInvalidCountValue')
 data.setCell(1, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
-data.setCell(1, 3, 987);
+data.setCell(1, 3, 1688);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createDeckAndDrawAllCards')
+data.setCell(2, 1, 'drawCardsOnEmptyDeck')
 data.setCell(2, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
-data.setCell(2, 3, 839);
+data.setCell(2, 3, 1164);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'drawCardsFromDeck')
-data.setCell(3, 2, 'com.deckofcardsapi.DeckOfCardsApiPositiveTests')
-data.setCell(3, 3, 827);
+data.setCell(3, 1, 'createDeckAndDrawAllCards')
+data.setCell(3, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
+data.setCell(3, 3, 904);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'inputInvalidCountValue')
+data.setCell(4, 1, 'createDeckAndOverDraw')
 data.setCell(4, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
-data.setCell(4, 3, 767);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'createDeckAndOverDraw')
-data.setCell(5, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
-data.setCell(5, 3, 731);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'createDeckAndDrawZeroCards')
-data.setCell(6, 2, 'com.deckofcardsapi.DeckOfCardsApiNegativeTests')
-data.setCell(6, 3, 700);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'createNewDeckWithJoker')
-data.setCell(7, 2, 'com.deckofcardsapi.DeckOfCardsApiPositiveTests')
-data.setCell(7, 3, 438);
+data.setCell(4, 3, 777);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -431,59 +374,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.deckofcardsapi.DeckOfCardsApiPositiveTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.deckofcardsapi.DeckOfCardsApiNegativeTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">createNewDeck</span>
-                <span class="method-start">1004 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">createNewDeckWithJoker</span>
-                <span class="method-start">6581 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">drawCardsFromDeck</span>
-                <span class="method-start">7022 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">7859 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.deckofcardsapi.DeckOfCardsApiNegativeTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">7860 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <span class="method-name">createDeckAndDrawZeroCards</span>
-                <span class="method-start">7861 ms</span>
+                <span class="method-start">1146 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createDeckAndDrawAllCards</span>
-                <span class="method-start">8565 ms</span>
+                <span class="method-start">6809 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createDeckAndOverDraw</span>
-                <span class="method-start">9416 ms</span>
+                <span class="method-start">7720 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">drawCardsOnEmptyDeck</span>
-                <span class="method-start">10152 ms</span>
+                <span class="method-start">8505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">inputInvalidCountValue</span>
-                <span class="method-start">11143 ms</span>
+                <span class="method-start">9679 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11931 ms</span>
+                <span class="method-start">11409 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

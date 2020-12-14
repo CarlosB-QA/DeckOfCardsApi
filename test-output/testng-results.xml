@@ -1,55 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-13T10:36:07 PST" name="Default suite" finished-at="2020-12-13T10:36:19 PST" duration-ms="11988">
+  <suite started-at="2020-12-13T22:32:46 PST" name="Default suite" finished-at="2020-12-13T22:32:58 PST" duration-ms="11456">
     <groups>
     </groups>
-    <test started-at="2020-12-13T10:36:07 PST" name="Default test" finished-at="2020-12-13T10:36:19 PST" duration-ms="11988">
-      <class name="com.deckofcardsapi.DeckOfCardsApiPositiveTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57]" started-at="2020-12-13T10:36:08 PST" name="setup" finished-at="2020-12-13T10:36:09 PST" duration-ms="987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewDeck()[pri:10, instance:com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57]" started-at="2020-12-13T10:36:09 PST" name="createNewDeck" finished-at="2020-12-13T10:36:14 PST" duration-ms="5561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewDeck -->
-        <test-method signature="createNewDeckWithJoker()[pri:20, instance:com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57]" started-at="2020-12-13T10:36:14 PST" name="createNewDeckWithJoker" finished-at="2020-12-13T10:36:15 PST" duration-ms="438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewDeckWithJoker -->
-        <test-method signature="drawCardsFromDeck()[pri:30, instance:com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57]" started-at="2020-12-13T10:36:15 PST" name="drawCardsFromDeck" finished-at="2020-12-13T10:36:15 PST" duration-ms="827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- drawCardsFromDeck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.deckofcardsapi.DeckOfCardsApiPositiveTests@3bd40a57]" started-at="2020-12-13T10:36:15 PST" name="tearDown" finished-at="2020-12-13T10:36:15 PST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.deckofcardsapi.DeckOfCardsApiPositiveTests -->
+    <test started-at="2020-12-13T22:32:46 PST" name="Default test" finished-at="2020-12-13T22:32:58 PST" duration-ms="11456">
       <class name="com.deckofcardsapi.DeckOfCardsApiNegativeTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:15 PST" name="setup" finished-at="2020-12-13T10:36:15 PST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:46 PST" name="setup" finished-at="2020-12-13T22:32:48 PST" duration-ms="1132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createDeckAndDrawZeroCards()[pri:10, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:15 PST" name="createDeckAndDrawZeroCards" finished-at="2020-12-13T10:36:16 PST" duration-ms="700" status="PASS">
+        <test-method signature="createDeckAndDrawZeroCards()[pri:10, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:48 PST" name="createDeckAndDrawZeroCards" finished-at="2020-12-13T22:32:53 PST" duration-ms="5646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDeckAndDrawZeroCards -->
-        <test-method signature="createDeckAndDrawAllCards()[pri:20, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:16 PST" name="createDeckAndDrawAllCards" finished-at="2020-12-13T10:36:17 PST" duration-ms="839" status="PASS">
+        <test-method signature="createDeckAndDrawAllCards()[pri:20, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:53 PST" name="createDeckAndDrawAllCards" finished-at="2020-12-13T22:32:54 PST" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDeckAndDrawAllCards -->
-        <test-method signature="createDeckAndOverDraw()[pri:30, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:17 PST" name="createDeckAndOverDraw" finished-at="2020-12-13T10:36:18 PST" duration-ms="731" status="PASS">
+        <test-method signature="createDeckAndOverDraw()[pri:30, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:54 PST" name="createDeckAndOverDraw" finished-at="2020-12-13T22:32:55 PST" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDeckAndOverDraw -->
-        <test-method signature="drawCardsOnEmptyDeck()[pri:40, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:18 PST" name="drawCardsOnEmptyDeck" finished-at="2020-12-13T10:36:19 PST" duration-ms="987" status="PASS">
+        <test-method signature="drawCardsOnEmptyDeck()[pri:40, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:55 PST" name="drawCardsOnEmptyDeck" finished-at="2020-12-13T22:32:56 PST" duration-ms="1164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drawCardsOnEmptyDeck -->
-        <test-method signature="inputInvalidCountValue()[pri:50, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:19 PST" name="inputInvalidCountValue" finished-at="2020-12-13T10:36:19 PST" duration-ms="767" status="FAIL">
+        <test-method signature="inputInvalidCountValue()[pri:50, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:56 PST" name="inputInvalidCountValue" finished-at="2020-12-13T22:32:58 PST" duration-ms="1688" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -97,8 +75,8 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:29)
-at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:80)
+at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:27)
+at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,7 +111,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputInvalidCountValue -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@fdefd3f]" started-at="2020-12-13T10:36:19 PST" name="tearDown" finished-at="2020-12-13T10:36:19 PST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.deckofcardsapi.DeckOfCardsApiNegativeTests@327b636c]" started-at="2020-12-13T22:32:58 PST" name="tearDown" finished-at="2020-12-13T22:32:58 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

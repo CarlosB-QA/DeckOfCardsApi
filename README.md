@@ -71,9 +71,9 @@ There is not enough info at this time to find out why the code is not able to ha
 I will leave the failure to be recorded, and more research needs to be done when time permits. 
 The research I would conduct to fix this issue includes:
 1. Cloning the Deck of Cards Api project locally in my computer
-2. Find and fix the code that throws the 500 code in this scenario
-3. Fork the project for the approval process
-4. Retest when the changes make it to the Master repo  
+2. Finding and fixing the code that throws the 500 code in this scenario
+3. Forking the project for the approval process
+4. Re testing when the changes make it to the Master repo  
 
 
 

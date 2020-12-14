@@ -1,17 +1,10 @@
 package com.deckofcardsapi;
 
-import static io.restassured.RestAssured.baseURI;
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
-
 import java.util.HashMap;
-import java.util.Map;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods;
@@ -25,17 +18,19 @@ public class DeckOfCardsApiPositiveTests {
 	private HashMap<String,String> params;
 	private String deckId;
 	private Logs log;
+	private String newResource = "new/";
+	private String drawResource = "/draw/";
 	
 	@BeforeClass
 	public void setup() {
-		myRom = new DeckOfCardsApiSupportMethods("https://deckofcardsapi.com/api/deck");
+		myRom = new DeckOfCardsApiSupportMethods("https://deckofcardsapi.com/api/deck/");
 		log = new Logs(DeckOfCardsApiPositiveTests.class);
 		log.createLog("info","##### Deck of Cards Positive Tests Start #####");
 	}
 	@Test(priority=10)
     public void createNewDeck() {
 		log.createLog("info","--> createNewDeck test method running");
-		jp = new JsonPath(myRom.createNewDeck());
+		jp = new JsonPath(myRom.createNewDeck(newResource));
 		Assert.assertEquals(jp.getString("remaining"), "52");
     }
 	@Test(priority=20)
@@ -43,16 +38,16 @@ public class DeckOfCardsApiPositiveTests {
 		log.createLog("info","--> createNewDeckWithJoker test method running");
 		params = new HashMap<>();
 		params.put("jokers_enabled", "true");
-		jp = new JsonPath(myRom.createNewDeck(params));
+		jp = new JsonPath(myRom.createNewDeck(newResource,params));
 		Assert.assertEquals(jp.getString("remaining"), "54");
     }
 	@Test(priority=30)
 	public void drawCardsFromDeck() {
 		log.createLog("info","--> drawCardsFromDeck test method running");
-		deckId = new JsonPath(myRom.createNewDeck()).get("deck_id");
+		deckId = new JsonPath(myRom.createNewDeck(newResource)).get("deck_id");
 		params = new HashMap<>();
 		params.put("count", "2");
-		jp = new JsonPath(myRom.drawCardsFromDeck(deckId,params));
+		jp = new JsonPath(myRom.drawCardsFromDeck(drawResource,deckId,params));
 		Assert.assertEquals(jp.getString("remaining"), "50");
     }
 	@AfterClass

@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,988</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,456</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.deckofcardsapi.DeckOfCardsApiNegativeTests</td><td><a href="#m0">inputInvalidCountValue</a></td><td rowspan="1">1607884579186</td><td rowspan="1">767</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.deckofcardsapi.DeckOfCardsApiNegativeTests</td><td><a href="#m1">createDeckAndDrawAllCards</a></td><td rowspan="1">1607884576608</td><td rowspan="1">839</td></tr><tr class="passedeven"><td><a href="#m2">createDeckAndDrawZeroCards</a></td><td rowspan="1">1607884575904</td><td rowspan="1">700</td></tr><tr class="passedeven"><td><a href="#m3">createDeckAndOverDraw</a></td><td rowspan="1">1607884577459</td><td rowspan="1">731</td></tr><tr class="passedeven"><td><a href="#m4">drawCardsOnEmptyDeck</a></td><td rowspan="1">1607884578195</td><td rowspan="1">987</td></tr><tr class="passedodd"><td rowspan="3">com.deckofcardsapi.DeckOfCardsApiPositiveTests</td><td><a href="#m5">createNewDeck</a></td><td rowspan="1">1607884569047</td><td rowspan="1">5561</td></tr><tr class="passedodd"><td><a href="#m6">createNewDeckWithJoker</a></td><td rowspan="1">1607884574624</td><td rowspan="1">438</td></tr><tr class="passedodd"><td><a href="#m7">drawCardsFromDeck</a></td><td rowspan="1">1607884575065</td><td rowspan="1">827</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.deckofcardsapi.DeckOfCardsApiNegativeTests</td><td><a href="#m0">inputInvalidCountValue</a></td><td rowspan="1">1607927576678</td><td rowspan="1">1688</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.deckofcardsapi.DeckOfCardsApiNegativeTests</td><td><a href="#m1">createDeckAndDrawAllCards</a></td><td rowspan="1">1607927573808</td><td rowspan="1">904</td></tr><tr class="passedeven"><td><a href="#m2">createDeckAndDrawZeroCards</a></td><td rowspan="1">1607927568145</td><td rowspan="1">5646</td></tr><tr class="passedeven"><td><a href="#m3">createDeckAndOverDraw</a></td><td rowspan="1">1607927574719</td><td rowspan="1">777</td></tr><tr class="passedeven"><td><a href="#m4">drawCardsOnEmptyDeck</a></td><td rowspan="1">1607927575504</td><td rowspan="1">1164</td></tr></tbody>
 </table>
 <h2>Default test</h2><h3 id="m0">com.deckofcardsapi.DeckOfCardsApiNegativeTests#inputInvalidCountValue</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;500&gt;.
@@ -53,8 +53,8 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:29)
-	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:80)
+	at com.deckofcardsapi.supportclasses.DeckOfCardsApiSupportMethods.drawCardsFromDeck(DeckOfCardsApiSupportMethods.java:27)
+	at com.deckofcardsapi.DeckOfCardsApiNegativeTests.inputInvalidCountValue(DeckOfCardsApiNegativeTests.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,8 +88,5 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
 <h3 id="m2">com.deckofcardsapi.DeckOfCardsApiNegativeTests#createDeckAndDrawZeroCards</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.deckofcardsapi.DeckOfCardsApiNegativeTests#createDeckAndOverDraw</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">com.deckofcardsapi.DeckOfCardsApiNegativeTests#drawCardsOnEmptyDeck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.deckofcardsapi.DeckOfCardsApiPositiveTests#createNewDeck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.deckofcardsapi.DeckOfCardsApiPositiveTests#createNewDeckWithJoker</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.deckofcardsapi.DeckOfCardsApiPositiveTests#drawCardsFromDeck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
